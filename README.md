@@ -8,6 +8,14 @@
 - 💬 Ask me about **data consulting**
 
 - 📫 How to reach me **likemasster@gmail.com**
+##  my note of exam
+- [離散數學](https://www.notion.so/e9c6b4e4188b485aa69fa6e7f3af15a3)
+- **[線性代數](https://hackmd.io/u1PWxHELTRO_VCVVGU6wHg)**
+- **[Algorthim](https://hackmd.io/x5AOLw7ETBy5nwGagod2yA)**
+- **[計算機組織](https://hackmd.io/_QYmE-YFSd2RuK3ekMDpKA)**
+- [DS](https://hackmd.io/2DBdw7IgTF2jyyjCoNYYfw)
+- [OS](/0cCld7J2SFarAG1iJR66Yg)
+- [Notion note](https://www.notion.so/e317254f9920443397b55c05978fb033?v=c542fa0fd3ca42ffb6b4697a47e303c4)
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
