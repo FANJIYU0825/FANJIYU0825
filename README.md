@@ -4,10 +4,13 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=fanjiyu0825" alt="fanjiyu0825" /> </p>
 
 - 🌱 I’m currently learning **NLP**
+  
 
 - 💬 Ask me about **data consulting**
 
 - 📫 How to reach me **likemasster@gmail.com**
+## my home page of Hack MD
+- [page(目前主要為研究所筆記)](https://hackmd.io/@X3gJbQadTm6i1CdOB20Gzw/Syj-B7Bfw/%2Fl_ULnJGeRZ6SaeBfXrpxOg)
 ##  my note of exam
 - [離散數學](https://www.notion.so/e9c6b4e4188b485aa69fa6e7f3af15a3)
 - **[線性代數](https://hackmd.io/u1PWxHELTRO_VCVVGU6wHg)**
@@ -16,6 +19,24 @@
 - [DS](https://hackmd.io/2DBdw7IgTF2jyyjCoNYYfw)
 - [OS](/0cCld7J2SFarAG1iJR66Yg)
 - [Notion note](https://www.notion.so/e317254f9920443397b55c05978fb033?v=c542fa0fd3ca42ffb6b4697a47e303c4)
+## Cover 
+
+### 曾有擔任志工經驗：
+大學時參與志工隊，幫助偏鄉小學輔導。
+### 有團隊帶領經驗：
+先前創辦樂饕網路科技，公司為網路美食外送平台，亦加入過Appworks之初創投，因而對網路科技趨勢等有深入了解與實務經驗。
+
+### 大型數據處理經驗：
+平時喜歡鑽研資料整理與特徵工程處理，有於Kaggle比賽拿到前15%左右排名的比賽經驗。如titanic、共享單車比賽、TWEET等。
+
+### 使用演算法經驗：
+如KNN、Regression 、Randon Forest、BERT、pytorch等等
+
+## 經歷
+### studycat 擔任 data scientist(April~ May 2020):
+處理顧客使用者資料，運用模型去作消費者附著度分析(該如何去提醒消費者)，資料視覺化
+### 準備成為研究生中(目前)
+
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
