@@ -10,6 +10,8 @@
 
 - 📫 How to reach me **likemasster@gmail.com**
 ## my home page of Hack MD
+大家好我現在是一位準研究生想找軟體實習，偏向DLML方面，
+但是之前自己有學習不少全端技術，AWS串接(angular)/heroku(django/flask)自己架設 所以DB全端的實習也是可以
 - [page(目前主要為研究所筆記)](https://hackmd.io/@X3gJbQadTm6i1CdOB20Gzw/Syj-B7Bfw/%2Fl_ULnJGeRZ6SaeBfXrpxOg)
 ##  my note of exam
 - [離散數學](https://www.notion.so/e9c6b4e4188b485aa69fa6e7f3af15a3)
@@ -29,14 +31,13 @@
 ### 大型數據處理經驗：
 平時喜歡鑽研資料整理與特徵工程處理，有於Kaggle比賽拿到前15%左右排名的比賽經驗。如titanic、共享單車比賽、TWEET等。
 
-### 使用演算法經驗：
-如KNN、Regression 、Randon Forest、BERT、pytorch等等
 
 ## 經歷
 ### studycat 擔任 data scientist(April~ May 2020):
 處理顧客使用者資料，運用模型去作消費者附著度分析(該如何去提醒消費者)，資料視覺化
-### 準備成為研究生中(目前)
+### 準備成為研究生中
 
+### 希望找尋實習機會
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
