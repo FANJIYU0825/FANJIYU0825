@@ -9,10 +9,16 @@
 - 💬 Ask me about **data consulting**
 
 - 📫 How to reach me **likemasster@gmail.com**
+# 近況(因為疫情能做的事情不多)
+1.現在除了平時論文看論文之外，還參加了很多經賽累積經驗同時可以跟業界人士交流經驗 加強自己機器學習的相關技能
+EX: 參加LawsNote 法律黑克松，去輔助無知的非法律人在事件發生當下該如何去處理，推薦他解決方法避面走上冤枉路
+2. 同時在接一些案子，幫忙撰寫網站，加強自己的code實力
+3.新語言學習  JAVA 語言在參加LINE的演講發現好多工具或是網路框架都是運    用JAVA 撰寫而成的就開始學習相關語言
+EX: Spark ,kafka, Spring boots 等等 相關框架 
 ## my home page of Hack MD
 大家好我現在是一位準研究生想找軟體實習，偏向DLML方面，
 但是之前自己有學習不少全端技術，AWS串接(angular)/heroku(django/flask)自己架設 所以DB全端的實習也是可以
-- [page(目前主要為研究所筆記)](https://hackmd.io/@X3gJbQadTm6i1CdOB20Gzw/Syj-B7Bfw/%2Fl_ULnJGeRZ6SaeBfXrpxOg)
+[medium](https://medium.com/%E6%96%87%E7%B5%84%E4%BA%BA%E5%8D%94%E6%A7%93%E4%BA%BA%E7%94%9F)
 ##  my note of exam
 - **[線性代數](https://hackmd.io/u1PWxHELTRO_VCVVGU6wHg)**
 - **[Algorthim](https://hackmd.io/x5AOLw7ETBy5nwGagod2yA)**
@@ -41,7 +47,4 @@
 
 <p align="left"><img src="https://devicons.github.io/devicon/devicon.git/icons/angularjs/angularjs-original.svg" alt="angularjs" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/d3js/d3js-original.svg" alt="d3js" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/photoshop/photoshop-plain.svg" alt="photoshop" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/php/php-original.svg" alt="php" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/></p><img align="center" src="https://github-readme-stats.vercel.app/api?username=fanjiyu0825&show_icons=true" alt="fanjiyu0825" />
 
-<p align="center">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/tony-fan-872aa5140/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="https://www.linkedin.com/in/tony-fan-872aa5140/" height="30" width="30" /></a>
-<a href="https://medium.com/@文組人協槓人生" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@文組人協槓人生" height="30" width="30" /></a>
-</p>
+
