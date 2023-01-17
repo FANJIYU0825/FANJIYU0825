@@ -7,6 +7,9 @@
 - 🔭 I’m currently working on NTNU_KDD_LAB
 - 💬 Ask me about Data/ Backend
 - 📫 How to reach me: likemasster@gmail.com
+
+##
+![FANJIYU0825 github stats](https://github-readme-framework-git-main-a607ernie.vercel.app/api?username=a607ernie&show_icons=true&theme=tokyonight)![a607ernie's Top Langs](https://github-readme-framework.vercel.app/api/top-langs/?username=a607ernie&theme=tokyonight&layout=compact)
 <!--
 **Schweinepriester/Schweinepriester** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
