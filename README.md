@@ -9,8 +9,7 @@
 - 📫 How to reach me: likemasster@gmail.com
 
 ##
-<!-- ![FANJIYU0825 github stats](https://github-readme-framework-git-main-FANJIYU0825.vercel.app/api?username=FANJIYU0825&show_icons=true&theme=tokyonight) -->
-![FANJIYU0825 Top Langs](https://github-readme-framework.vercel.app/api/top-langs/?username=FANJIYU0825&theme=tokyonight&layout=compact)
+
 <!--
 **Schweinepriester/Schweinepriester** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
