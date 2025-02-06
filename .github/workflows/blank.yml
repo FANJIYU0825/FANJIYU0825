@@ -31,6 +31,8 @@ jobs:
 
       - name: Push changes  
         run: |
-          git push origin main
+          git branch -m master main
+          git push -u origin main
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub's built-in token
