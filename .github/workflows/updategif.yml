@@ -19,6 +19,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Ensure branch exists
+        run: |
+          git branch -a  # List all branches
+          git checkout main || git checkout -b main  # Change to "master" if needed
+
       - name: Select Random GIF
         id: random-gif
         run: |
