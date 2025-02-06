@@ -32,12 +32,13 @@ jobs:
           sed -i "s|https://raw.githubusercontent.com/FANJIYU0825/FANJIYU0825/main/gifs/.*.gif|https://raw.githubusercontent.com/FANJIYU0825/FANJIYU0825/main/$SELECTED_GIF|" README.md
 
         
-
+        # commit change
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions@github.com"
           git commit -m "Auto-update GIF $(date)" || echo "No changes to commit"
+          git add README.md
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
