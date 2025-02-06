@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *"  # Runs every day at midnight UTC
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:  # Allows manual triggering
 
 permissions:
@@ -19,11 +19,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Ensure branch exists
-        run: |
-          git branch -a  # List all branches
-          git checkout main || git checkout -b main  # Change to "master" if needed
-
       - name: Select Random GIF
         id: random-gif
         run: |
@@ -36,14 +31,12 @@ jobs:
         run: |
           sed -i "s|https://raw.githubusercontent.com/FANJIYU0825/FANJIYU0825/main/gifs/.*.gif|https://raw.githubusercontent.com/FANJIYU0825/FANJIYU0825/main/$SELECTED_GIF|" README.md
 
-        
-        # commit change
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions@github.com"
           git commit -m "Auto-update GIF $(date)" || echo "No changes to commit"
           git add README.md
-          git push origin main
+          git push origin master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
