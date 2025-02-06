@@ -1,6 +1,6 @@
 ### Hello there!
 
-![](gifpage/MeagerHardtofindAlbertosaurus-size_restricted.gif)  
+![](gifs/MeagerHardtofindAlbertosaurus-size_restricted.gif)  
 [Source](https://gfycat.com/meagerhardtofindalbertosaurus-hello-there-star-wars-prequelmemes)
 
 ![](https://komarev.com/ghpvc/?username=FANJIYU0825)
