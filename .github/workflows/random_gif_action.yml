@@ -1,0 +1,36 @@
+name: Random GIF Updater
+
+on:
+  schedule:
+    - cron: "0 0 * * *" 
+  workflow_dispatch: 
+
+jobs:
+  update-gif:
+    name: update gif on Readme.md
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Select Random GIF
+        id: random-gif
+        run: |
+          GIFS=("gifs/Excited_John_Cena_GIF_by_WWE.gif" "gifs/Happy_Season_5_GIF_by_The_Office.gif" "gifs/Obi_Wan_Kenobi_Hello_GIF_by_Star_Wars.gif" "gifs/Revenge_Of_The_Sith_Prequel_GIF.gif")
+          RANDOM_INDEX=$((RANDOM % ${#GIFS[@]}))
+          SELECTED_GIF=${GIFS[$RANDOM_INDEX]}
+          echo "SELECTED_GIF=$SELECTED_GIF" >> $GITHUB_ENV
+
+      - name: Update README with Selected GIF
+        run: |
+          sed -i "s|https://raw.githubusercontent.com/timbolo6/timbolo6/main/gifs/.*.gif|https://raw.githubusercontent.com/timbolo6/timbolo6/main/$SELECTED_GIF|" README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git pull origin main 
+          git add README.md
+          git commit -m "Update README with random GIF"
+          git push origin main
