@@ -1,0 +1,44 @@
+name: Update GIF in Markdown
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs every day at midnight UTC
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Allows manual triggering
+
+permissions:
+  contents: write  # Allows modifying the repository
+
+jobs:
+  update-gif:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Select Random GIF
+        id: random-gif
+        run: |
+          GIFS=("gifs/Excited_John_Cena_GIF_by_WWE.gif" "gifs/Happy_Season_5_GIF_by_The_Office.gif" "gifs/Obi_Wan_Kenobi_Hello_GIF_by_Star_Wars.gif" "gifs/Revenge_Of_The_Sith_Prequel_GIF.gif")
+          RANDOM_INDEX=$((RANDOM % ${#GIFS[@]}))
+          SELECTED_GIF=${GIFS[$RANDOM_INDEX]}
+          echo "SELECTED_GIF=$SELECTED_GIF" >> $GITHUB_ENV
+
+      - name: Update README with Selected GIF
+        run: |
+          sed -i "s|https://raw.githubusercontent.com/FANJIYU0825/FANJIYU0825/main/gifs/.*.gif|https://raw.githubusercontent.com/FANJIYU0825/FANJIYU0825/main/$SELECTED_GIF|" README.md
+
+        
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions@github.com"
+          git add gifs/updated_gif.gif README.md
+          git commit -m "Auto-update GIF $(date)" || echo "No changes to commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
