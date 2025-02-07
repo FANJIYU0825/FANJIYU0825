@@ -1,6 +1,6 @@
 ### Hello there!
 
-![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/Excited_John_Cena_GIF_by_WWE.gif)  
+![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/Revenge_Of_The_Sith_Prequel_GIF.gif)  
 [Source](https://gfycat.com/meagerhardtofindalbertosaurus-hello-there-star-wars-prequelmemes)
 
 ![](https://komarev.com/ghpvc/?username=FANJIYU0825)
