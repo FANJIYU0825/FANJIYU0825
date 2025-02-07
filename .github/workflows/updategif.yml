@@ -48,6 +48,7 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git commit -m "Auto-update GIF $(date)" || echo "No changes to commit"
           git add README.md
+          git add test.md
           git push origin master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
