@@ -24,7 +24,7 @@ jobs:
         id: day-of-week
         run: |
           # Map the numeric day of the week to the day name
-          DAY_OF_WEEK=$(case $(date +"%u") in
+          DAY_OF_WEEK_NAME=$(case $(date +"%u") in
             1) echo "Monday" ;;
             2) echo "Tuesday" ;;
             3) echo "Wednesday" ;;
@@ -34,14 +34,14 @@ jobs:
             7) echo "Sunday" ;;
             *) echo "Unknown" ;;
           esac)
-          echo "DAY_OF_WEEK=$DAY_OF_WEEK" >> $GITHUB_ENV
+          echo "DAY_OF_WEEK_NAME=$DAY_OF_WEEK_NAME" >> $GITHUB_ENV
             
       # select random gif by day of week
       - name: Select Random GIF by Day of Week
         id: random-gif-by-day-of-week
         run: |
-          ls gifs/${DAY_OF_WEEK}/*.gif
-          SELECTED_Day_of_Week_GIF=$(shuf -n1 -e gifs/${env.DAY_OF_WEEK}/*.gif)
+          ls gifs/day_of_week/${DAY_OF_WEEK_NAME}/*.gif
+          SELECTED_Day_of_Week_GIF=$(shuf -n1 -e gifs/day_of_week/${DAY_OF_WEEK_NAME}/*.gif)
           echo "SELECTED_Day_of_Week_GIF=$SELECTED_Day_of_Week_GIF" >> $GITHUB_ENV
       # change week of day 
       - name: Update README with Selected GIF by Day of Week
