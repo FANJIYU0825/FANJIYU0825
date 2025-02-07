@@ -23,7 +23,6 @@ jobs:
       - name: Check Day of Week
         id: day-of-week
         run: |
-          DAY_OF_WEEK=$(date +"%u")
           case $DAY_OF_WEEK in
           1) WEEKDAY="Monday" ;;
           2) WEEKDAY="Tuesday" ;;
@@ -33,10 +32,9 @@ jobs:
           6) WEEKDAY="Saturday" ;;
           7) WEEKDAY="Sunday" ;;
           *) WEEKDAY="Unknown" ;;
-        esac
-
-        echo "DAY_OF_WEEK=$WEEKDAY" >> $GITHUB_ENV
-            # check random gif in which day of week file 
+          esac
+          echo "DAY_OF_WEEK=$WEEKDAY" >> $GITHUB_ENV
+            
       # select random gif by day of week
       - name: Select Random GIF by Day of Week
         id: random-gif-by-day-of-week
