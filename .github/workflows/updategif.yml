@@ -30,7 +30,10 @@ jobs:
       - name: Update README with Selected GIF
         run: |
           sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/.*.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/$SELECTED_GIF|" README.md
-
+      - name: counting the day I start coding 
+        run: |
+            X=$(( ($(date -d "2019-10-01" +%s) - $(date +%s)) / 86400 ))
+            echo "Day start coding= $X"
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
