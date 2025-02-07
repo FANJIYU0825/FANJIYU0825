@@ -37,6 +37,12 @@ jobs:
             sed -i "s|Start [0-9]* day|Start $X day|" README.md
             
      
+      - name: Force Git to Detect Changes
+        run: |
+          git status
+          git diff
+          git add README.md
+          git status
           
       - name: Commit and push changes
         run: |
