@@ -1,15 +1,15 @@
-### Hello there!
+## Hello there!
 
-![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/Excited_John_Cena_GIF_by_WWE.gif)  
+![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/FANJIYU0825/gifs/forweekday/Revenge_Of_The_Sith_Prequel_GIF.gif)  
 [Source](https://gfycat.com/meagerhardtofindalbertosaurus-hello-there-star-wars-prequelmemes)
 
 ![](https://komarev.com/ghpvc/?username=FANJIYU0825)
 - 🔭 I’m currently Study in Uppsala University
 - 💬 Ask me about Data/ Backend
 - 📫 How to reach me: likemasster@gmail.com
-
-## The time I start coding
-Start coding for 1956 day 
+## Today is Friday So 
+![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/FANJIYU0825/gifs/day_of_week/Friday/Friday_ITS_FRIDAY.gif)
+## The time I start coding for 1956 day 
 
 <!--
 **Schweinepriester/Schweinepriester** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -18,23 +18,44 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      
+      # check day of week
+      - name: Check Day of Week
+        id: day-of-week
+        run: |
+          echo "DAY_OF_WEEK=$(date +"%u")" >> $GITHUB_ENV
+            # check random gif in which day of week file 
+      # select random gif by day of week
+      - name: Select Random GIF by Day of Week
+        id: random-gif-by-day-of-week
+        run: |
+          ls gifs/${{ env.DAY_OF_WEEK }}/*.gif
+          SELECTED_Day_of_Week_GIF=$(shuf -n1 -e gifs/${{ env.DAY_OF_WEEK }}/*.gif)
+          echo "SELECTED_Day_of_Week_GIF=$SELECTED_Day_of_Week_GIF" >> $GITHUB_ENV
+      # change week of day 
+      - name: Update README with Selected GIF by Day of Week
+        run: | 
+        
+          sed -i "s|Today is \[\]|Today is ${DAY_OF_WEEK}|" README.md
+          sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/day_of_week/Friday/Friday_ITS_FRIDAY.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/$SELECTED_Day_of_Week_GIF|" README.md
 
+      # select random gif
       - name: Select Random GIF
         id: random-gif
         run: |
-          GIFS=("gifs/Excited_John_Cena_GIF_by_WWE.gif" "gifs/Happy_Season_5_GIF_by_The_Office.gif" "gifs/Obi_Wan_Kenobi_Hello_GIF_by_Star_Wars.gif" "gifs/Revenge_Of_The_Sith_Prequel_GIF.gif")
-          RANDOM_INDEX=$((RANDOM % ${#GIFS[@]}))
-          SELECTED_GIF=${GIFS[$RANDOM_INDEX]}
-          echo "SELECTED_GIF=$SELECTED_GIF" >> $GITHUB_ENV
-
+          SELECTED_GIF=$(shuf -n1 -e gifs/start_wars/*.gif)
+          echo "SELECTED_GIF=$SELECTED_GIF">> $GITHUB_ENV
+      # update README with selected gif
       - name: Update README with Selected GIF
         run: |
-          sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/.*.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/$SELECTED_GIF|" README.md
+          sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/start_wars/.*.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/$SELECTED_GIF|" README.md
+      
+      # update README with counting day
       - name: counting the day I start coding 
         run: |
             X=$(( ($(date +%s) - $(date -d "2019-10-01" +%s)) / 86400 ))
             echo "Day start coding= $X"
-            sed -i "s|Start coding for [0-9]* day|Start coding for $X day|" README.md
+            sed -i "s|start coding for [0-9]* day|start coding for $X day|" README.md
             
      
       - name: Force Git to Detect Changes
