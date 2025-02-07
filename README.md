@@ -1,6 +1,6 @@
 ## Hello there!
+![](https://github.com/FANJIYU0825/FANJIYU0825/blob/master/gifs/start_wars/Revenge_Of_The_Sith_Prequel_GIF.gif)
 
-![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/FANJIYU0825/gifs/start_wars/Revenge_Of_The_Sith_Prequel_GIF.gif)  
 [Source](https://gfycat.com/meagerhardtofindalbertosaurus-hello-there-star-wars-prequelmemes)
 
 ![](https://komarev.com/ghpvc/?username=FANJIYU0825)
