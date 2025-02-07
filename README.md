@@ -1,7 +1,7 @@
 ## Hello there!
 ![](https://github.com/FANJIYU0825/FANJIYU0825/blob/master/gifs/start_wars/Revenge_Of_The_Sith_Prequel_GIF.gif)
 
-[Source](https://gfycat.com/meagerhardtofindalbertosaurus-hello-there-star-wars-prequelmemes)
+[Source](https://giphy.com/gifs/starwars-star-wars-episode-3-3o84sCE6KjEPpXDV04)
 
 ![](https://komarev.com/ghpvc/?username=FANJIYU0825)
 - 🔭 I’m currently Study in Uppsala University
