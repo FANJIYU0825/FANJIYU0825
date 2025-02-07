@@ -1,6 +1,6 @@
 ## Hello there!
 
-![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/FANJIYU0825/gifs/forweekday/Revenge_Of_The_Sith_Prequel_GIF.gif)  
+![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/FANJIYU0825/gifs/start_wars/Revenge_Of_The_Sith_Prequel_GIF.gif)  
 [Source](https://gfycat.com/meagerhardtofindalbertosaurus-hello-there-star-wars-prequelmemes)
 
 ![](https://komarev.com/ghpvc/?username=FANJIYU0825)
@@ -8,7 +8,7 @@
 - 💬 Ask me about Data/ Backend
 - 📫 How to reach me: likemasster@gmail.com
 ## Today is Friday So 
-![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/FANJIYU0825/gifs/day_of_week/Friday/Friday_ITS_FRIDAY.gif)
+![](https://github.com/FANJIYU0825/FANJIYU0825/blob/master/gifs/day_of_week/Friday/Friday_ITS_FRIDAY.gif)
 ## The time I start coding for 1956 day 
 
 <!--
