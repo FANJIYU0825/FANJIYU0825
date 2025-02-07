@@ -8,7 +8,7 @@
 - 💬 Ask me about Data/ Backend
 - 📫 How to reach me: likemasster@gmail.com
 
-##
+## The time I start coding 2019/10/1 : 0 day 
 
 <!--
 **Schweinepriester/Schweinepriester** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
