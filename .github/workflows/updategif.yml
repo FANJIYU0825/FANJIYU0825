@@ -31,7 +31,7 @@ jobs:
           5) WEEKDAY="Friday" ;;
           6) WEEKDAY="Saturday" ;;
           7) WEEKDAY="Sunday" ;;
-          *) WEEKDAY="Unknown" ;;
+         
           esac
           echo "DAY_OF_WEEK=$WEEKDAY" >> $GITHUB_ENV
             
