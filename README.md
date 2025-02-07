@@ -1,6 +1,6 @@
 ### Hello there!
 
-![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/Revenge_Of_The_Sith_Prequel_GIF.gif)  
+![](https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/Excited_John_Cena_GIF_by_WWE.gif)  
 [Source](https://gfycat.com/meagerhardtofindalbertosaurus-hello-there-star-wars-prequelmemes)
 
 ![](https://komarev.com/ghpvc/?username=FANJIYU0825)
@@ -9,7 +9,7 @@
 - 📫 How to reach me: likemasster@gmail.com
 
 ## The time I start coding
-Start 0 day 
+Start 1956 day 
 
 <!--
 **Schweinepriester/Schweinepriester** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
