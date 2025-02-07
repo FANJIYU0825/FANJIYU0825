@@ -29,7 +29,7 @@ jobs:
 
       - name: Update README with Selected GIF
         run: |
-          sed -i "s|https://raw.githubusercontent.com/FANJIYU0825/FANJIYU0825/main/gifs/.*.gif|https://raw.githubusercontent.com/FANJIYU0825/FANJIYU0825/main/$SELECTED_GIF|" README.md
+          sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/.*.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/$SELECTED_GIF|" README.md
 
       - name: Commit and push changes
         run: |
