@@ -23,6 +23,7 @@ jobs:
       - name: Check Day of Week
         id: day-of-week
         run: |
+          DAY_OF_WEEK=$(date +"%u")
           case $DAY_OF_WEEK in
           1) WEEKDAY="Monday" ;;
           2) WEEKDAY="Tuesday" ;;
