@@ -36,6 +36,12 @@ jobs:
             echo "Day start coding= $X"
             sed -i "s|Start [0-9]* day|Start $X day|" README.md
             
+      - name: test file 
+        run: |
+          echo "已經過去 10 天" > test.md
+          sed -i "s|已經過去 [0-9]* 天|已經過去 99 天|" test.md
+          cat test.md
+          
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
