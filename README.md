@@ -9,7 +9,7 @@
 - 📫 How to reach me: likemasster@gmail.com
 ## Today is Friday So 
 ![](https://github.com/FANJIYU0825/FANJIYU0825/blob/master/gifs/day_of_week/Friday/Friday_ITS_FRIDAY.gif)
-## The time I start coding for 1956 day 
+## The time I start coding for 1956 days 
 
 <!--
 **Schweinepriester/Schweinepriester** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
