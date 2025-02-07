@@ -66,7 +66,7 @@ jobs:
         run: |
             X=$(( ($(date +%s) - $(date -d "2019-10-01" +%s)) / 86400 ))
             echo "Day start coding= $X"
-            sed -i "s|start coding for [0-9]* day|start coding for $X days|" README.md
+            sed -i "s|start coding for [0-9]* day|start coding for $X day|" README.md
             
      
       - name: Force Git to Detect Changes
