@@ -47,7 +47,7 @@ jobs:
       - name: Update README with Selected GIF by Day of Week
         run: | 
         
-          sed -i "s|Today is \[\]|Today is ${DAY_OF_WEEK}|" README.md
+          sed -i "s|Today is \[\]|Today is ${DAY_OF_WEEK_NAME}|" README.md
           sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/day_of_week/Friday/Friday_ITS_FRIDAY.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/$SELECTED_Day_of_Week_GIF|" README.md
 
       # select random gif
