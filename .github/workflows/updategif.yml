@@ -46,8 +46,8 @@ jobs:
       # change week of day 
       - name: Update README with Selected  Day of Week
         run: | 
-        
-          sed -i "s|Today is \[.*\]|Today is ${DAY_OF_WEEK_NAME}|" README.md
+          sed -i "s|## Today is .*|## Today is ${DAY_OF_WEEK_NAME}|" README.md
+          
       # select random gif
       - name: Select Random GIF
         id: random-gif
