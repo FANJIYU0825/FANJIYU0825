@@ -44,19 +44,23 @@ jobs:
           SELECTED_Day_of_Week_GIF=$(shuf -n1 -e gifs/day_of_week/${DAY_OF_WEEK_NAME}/*.gif)
           echo "SELECTED_Day_of_Week_GIF=$SELECTED_Day_of_Week_GIF" >> $GITHUB_ENV
       # change week of day 
-      - name: Update README with Selected GIF by Day of Week
+      - name: Update README with Selected  Day of Week
         run: | 
         
-          sed -i "s|Today is \[\]|Today is ${DAY_OF_WEEK_NAME}|" README.md
-          sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/day_of_week/Friday/Friday_ITS_FRIDAY.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/$SELECTED_Day_of_Week_GIF|" README.md
-
+          sed -i "s|Today is \[.*\]|Today is ${DAY_OF_WEEK_NAME}|" README.md
       # select random gif
       - name: Select Random GIF
         id: random-gif
         run: |
           SELECTED_GIF=$(shuf -n1 -e gifs/start_wars/*.gif)
           echo "SELECTED_GIF=$SELECTED_GIF">> $GITHUB_ENV
+      # update week of day
+ 
+      - name: Update README with Selected GIF by Day of Week
       # update README with selected gif
+        run: |
+          sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/day_of_week/Friday/Friday_ITS_FRIDAY.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/$SELECTED_Day_of_Week_GIF|" README.md
+
       - name: Update README with Selected GIF
         run: |
           sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/start_wars/.*.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/$SELECTED_GIF|" README.md
