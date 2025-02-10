@@ -1,5 +1,5 @@
 ## Hello there!
-![](gifs/start_wars/Revenge_Of_The_Sith_Power_GIF_by_Star_Wars.gif)
+![](gifs/start_wars/Revenge_Of_The_Sith_Prequel_GIF.gif)
 
 [Source](https://giphy.com/gifs/starwars-star-wars-episode-3-3o84sCE6KjEPpXDV04)
 
@@ -9,5 +9,5 @@
 - 📫 How to reach me: likemasster@gmail.com
 ## Today is Monday
 
-![]()
+![](gifs/day_of_week/Monday/Scared_Blue_Monday.gif)
 ## The time I start coding for 1959 days
