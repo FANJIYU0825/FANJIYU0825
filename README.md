@@ -1,5 +1,5 @@
 ## Hello there!
-![](gifs/start_wars/Revenge_Of_The_Sith_Prequel_GIF.gif)
+![](gifs/start_wars/Revenge_Of_The_Sith_Power_GIF_by_Star_Wars.gif)
 
 [Source](https://giphy.com/gifs/starwars-star-wars-episode-3-3o84sCE6KjEPpXDV04)
 
