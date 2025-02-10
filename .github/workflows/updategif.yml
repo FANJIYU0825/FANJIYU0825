@@ -19,7 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
-      
+
       # check day of week
       - name: Check Day of Week
         id: day-of-week
@@ -42,7 +42,7 @@ jobs:
         id: random-gif-by-day-of-week
         run: |
           ls gifs/day_of_week/${DAY_OF_WEEK_NAME}/*.gif
-          SELECTED_Day_of_Week_GIF=$(ls gifs/day_of_week/${DAY_OF_WEEK_NAME}/*.gif| sort -R | head -n 1)
+          SELECTED_Day_of_Week_GIF=$(ls gifs/${DAY_OF_WEEK_NAME}.gif| sort -R | head -n 1)
           echo "SELECTED_Day_of_Week_GIF=$SELECTED_Day_of_Week_GIF" >> $GITHUB_ENV
       # change week of day 
       - name: Update README with Selected  Day of Week
@@ -61,7 +61,7 @@ jobs:
       - name: Update README with Selected GIF by Day of Week
       # update README with selected gif
         run: |
-          sed -i -E "s|gifs/day_of_week/[A-Za-z]+/.*\.gif|$SELECTED_DAY_OF_WEEK_GIF|" README.md
+          sed -i -E "s|gifs/day_of_week/.*\.gif|$SELECTED_DAY_OF_WEEK_GIF|" README.md
 
 
       - name: Update README with Selected GIF
