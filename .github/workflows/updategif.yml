@@ -61,7 +61,7 @@ jobs:
       - name: Update README with Selected GIF by Day of Week
       # update README with selected gif
         run: |
-          sed -i -E "s|gifs/day_of_week/.*\.gif|$SELECTED_DAY_OF_WEEK_GIF|" README.md
+          sed -i "s|gifs/day_of_week/.*\.gif|$SELECTED_DAY_OF_WEEK_GIF|" README.md
 
 
       - name: Update README with Selected GIF
