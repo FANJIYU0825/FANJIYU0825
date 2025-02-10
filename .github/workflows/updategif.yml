@@ -42,7 +42,7 @@ jobs:
         id: random-gif-by-day-of-week
         run: |
           
-          SELECTED_Day_of_Week_GIF=$(ls gifs/${DAY_OF_WEEK_NAME}.gif| sort -R | head -n 1)
+          SELECTED_Day_of_Week_GIF=$(ls gifs/day_of_week/${DAY_OF_WEEK_NAME}.gif| sort -R | head -n 1)
           echo "SELECTED_Day_of_Week_GIF=$SELECTED_Day_of_Week_GIF" >> $GITHUB_ENV
       # change week of day 
       - name: Update README with Selected  Day of Week
