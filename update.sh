@@ -32,14 +32,20 @@ if [[ -d "$GIF_DIR" ]]; then
     if [[ $(ls "$GIF_DIR"/*.gif 2>/dev/null | wc -l) -gt 0 ]]; then
         # Select a random GIF
         SELECTED_DAY_OF_WEEK_GIF=$(ls gifs/day_of_week/${DAY_OF_WEEK_NAME}/*.gif | sort -R | head -n 1)
-
         echo "Selected GIF: $SELECTED_DAY_OF_WEEK_GIF"
         
         # Set it as an environment variable
         echo "SELECTED_DAY_OF_WEEK_GIF=$SELECTED_DAY_OF_WEEK_GIF" 
+        sed -i '' "s|![](gifs/day_of_week/.*\.gif)|![]($SELECTED_DAY_OF_WEEK_GIF)|g" README.md
+
+
+    
+        echo "Updated README.md with today's GIF: ![]($SELECTED_DAY_OF_WEEK_GIF)"
+
     else
         echo "⚠️ No GIFs found in $GIF_DIR"
     fi
 else
     echo "❌ Directory does NOT exist: $GIF_DIR"
 fi
+
