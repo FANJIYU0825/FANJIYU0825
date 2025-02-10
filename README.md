@@ -9,5 +9,5 @@
 - 📫 How to reach me: likemasster@gmail.com
 ## Today is Monday
 
-![](gifs/day_of_week/Monday/Scared_Blue_Monday.gif)
+![](gifs/day_of_week/Saturday/Saturday.gif)
 ## The time I start coding for 1959 days
