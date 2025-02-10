@@ -36,8 +36,7 @@ if [[ -d "$GIF_DIR" ]]; then
         
         # Set it as an environment variable
         echo "SELECTED_DAY_OF_WEEK_GIF=$SELECTED_DAY_OF_WEEK_GIF" 
-        sed -i '' "s|![](gifs/day_of_week/.*\.gif)|![]($SELECTED_DAY_OF_WEEK_GIF)|g" README.md
-
+        sed -i '' "s|gifs/day_of_week/[A-Za-z]+/.*\.gif|$SELECTED_DAY_OF_WEEK_GIF|" README.md
 
     
         echo "Updated README.md with today's GIF: ![]($SELECTED_DAY_OF_WEEK_GIF)"
@@ -49,3 +48,5 @@ else
     echo "❌ Directory does NOT exist: $GIF_DIR"
 fi
 
+SELECTED_GIF=$(ls gifs/start_wars/*.gif | sort -R | head -n 1)
+sed -i '' "s|gifs/start_wars/.*.gif|$SELECTED_GIF|" README.md

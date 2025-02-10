@@ -60,11 +60,11 @@ jobs:
       - name: Update README with Selected GIF by Day of Week
       # update README with selected gif
         run: |
-          sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/day_of_week/Friday/Friday_ITS_FRIDAY.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/'$SELECTED_Day_of_Week_GIF'|" README.md
+          sed -i '' "s|gifs/day_of_week/([A-Za-z]+)/(.*\.gif)|$SELECTED_DAY_OF_WEEK_GIF|" README.md
 
       - name: Update README with Selected GIF
         run: |
-          sed -i "s|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/gifs/start_wars/.*.gif|https://github.com/FANJIYU0825/FANJIYU0825/blob/main/'$SELECTED_GIF'|" README.md
+          sed -i '' "s|gifs/start_wars/.*.gif|$SELECTED_GIF|" README.md
       
       # update README with counting day
       - name: counting the day I start coding 
