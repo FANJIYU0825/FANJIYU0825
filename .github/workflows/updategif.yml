@@ -19,6 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
+      
       # check day of week
       - name: Check Day of Week
         id: day-of-week
@@ -85,12 +86,12 @@ jobs:
       - name: Commit and push changes
         run: |
           # Fetch the latest changes
-          git pull --rebase origin master
+          git pull
           git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions@github.com"
           git commit -m "Auto-update GIF $(date)" || echo "No changes to commit"
           git add README.md
-          git push origin master
+          git push 
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
