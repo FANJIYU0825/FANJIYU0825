@@ -7,7 +7,7 @@
 - 🔭 I’m currently Study in Uppsala University
 - 💬 Ask me about Data/ Backend
 - 📫 How to reach me: likemasster@gmail.com
-## Today is Sunday
+## Today is Monday
 
-![](gifs/day_of_week/Sunday.gif)
-## The time I start coding for 2385 days
+![](gifs/day_of_week/Monday.gif)
+## The time I start coding for 2386 days
