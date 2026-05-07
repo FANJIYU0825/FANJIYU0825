@@ -7,7 +7,7 @@
 - 🔭 I’m currently Study in Uppsala University
 - 💬 Ask me about Data/ Backend
 - 📫 How to reach me: likemasster@gmail.com
-## Today is Wednesday
+## Today is Thursday
 
-![](gifs/day_of_week/Wednesday.gif)
-## The time I start coding for 2409 days
+![](gifs/day_of_week/Thursday.gif)
+## The time I start coding for 2410 days
